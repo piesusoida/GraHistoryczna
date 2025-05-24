@@ -568,8 +568,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -457.577, y: -136.44739}
-  m_SizeDelta: {x: 314.8429, y: 106.1732}
+  m_AnchoredPosition: {x: -452, y: -109}
+  m_SizeDelta: {x: 333.4514, y: 190.3326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &57125453
 MonoBehaviour:
@@ -583,6 +583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5211b5ccfb656ff4199e2354087d8435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text_tmp: {fileID: 1885864257}
 --- !u!114 &57125454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -608,7 +609,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.21960784, g: 0.21960784, b: 0.21960784, a: 0.44705883}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -627,6 +628,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 57125453}
+        m_TargetAssemblyTypeName: ButtonHitbox, Assembly-CSharp
+        m_MethodName: ViewText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Hiszpania
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1812205433}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -664,14 +677,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6126057703731787074, guid: d4b89a0b71fadda4596d1f69d8846497, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d4b89a0b71fadda4596d1f69d8846497, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -794,8 +807,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -381.17938, y: -249.12662}
-  m_SizeDelta: {x: 524.9943, y: 76.0867}
+  m_AnchoredPosition: {x: -358.7, y: -251.8184}
+  m_SizeDelta: {x: 648.1714, y: 104.8583}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &87660465
 MonoBehaviour:
@@ -809,6 +822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5211b5ccfb656ff4199e2354087d8435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text_tmp: {fileID: 1885864257}
 --- !u!114 &87660466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -853,6 +867,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 87660465}
+        m_TargetAssemblyTypeName: ButtonHitbox, Assembly-CSharp
+        m_MethodName: ViewText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Afryka
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1812205433}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -890,14 +916,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6126057703731787074, guid: d4b89a0b71fadda4596d1f69d8846497, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f07da48f7c72e055abfee5af683ec15d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1863,8 +1889,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 518.3735, y: 151.82}
-  m_SizeDelta: {x: 355.4758, y: 278.54}
+  m_AnchoredPosition: {x: 396.60495, y: 128.89873}
+  m_SizeDelta: {x: 570.0195, y: 368.3174}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &245755408
 MonoBehaviour:
@@ -1878,6 +1904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5211b5ccfb656ff4199e2354087d8435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text_tmp: {fileID: 1885864257}
 --- !u!114 &245755409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1922,6 +1949,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 245755408}
+        m_TargetAssemblyTypeName: ButtonHitbox, Assembly-CSharp
+        m_MethodName: ViewText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Rosja
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1812205433}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -1959,14 +1998,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6126057703731787074, guid: d4b89a0b71fadda4596d1f69d8846497, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0938b2ad86e9158c295218979d568f83, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3619,8 +3658,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -48.633, y: 222.51}
-  m_SizeDelta: {x: 230.9553, y: 149.16}
+  m_AnchoredPosition: {x: 21.025593, y: 221.3465}
+  m_SizeDelta: {x: 372.1626, y: 244.5698}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &528931568
 MonoBehaviour:
@@ -3634,6 +3673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5211b5ccfb656ff4199e2354087d8435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text_tmp: {fileID: 1885864257}
 --- !u!114 &528931569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3678,6 +3718,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 528931568}
+        m_TargetAssemblyTypeName: ButtonHitbox, Assembly-CSharp
+        m_MethodName: ViewText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Skandynawia
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1812205433}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -3715,14 +3767,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6126057703731787074, guid: d4b89a0b71fadda4596d1f69d8846497, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d88248d79ffbb0d2ea2f06ebbd573f03, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4915,8 +4967,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 358.0954, y: -184.56613}
-  m_SizeDelta: {x: 544.223, y: 237.6458}
+  m_AnchoredPosition: {x: 333.34, y: -128.6971}
+  m_SizeDelta: {x: 650.47, y: 419.3651}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &720428199
 MonoBehaviour:
@@ -4930,6 +4982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5211b5ccfb656ff4199e2354087d8435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text_tmp: {fileID: 1885864257}
 --- !u!114 &720428200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4974,6 +5027,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 720428199}
+        m_TargetAssemblyTypeName: ButtonHitbox, Assembly-CSharp
+        m_MethodName: ViewText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Turcja
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1812205433}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -5011,14 +5076,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6126057703731787074, guid: d4b89a0b71fadda4596d1f69d8846497, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 00ca05e13d6fed5e3bb58b37c0710814, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6671,8 +6736,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -285.2015, y: -7.2182975}
-  m_SizeDelta: {x: 285.597, y: 184.9029}
+  m_AnchoredPosition: {x: -285, y: -7.2189}
+  m_SizeDelta: {x: 294.0027, y: 293.5716}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &952393887
 MonoBehaviour:
@@ -6686,6 +6751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5211b5ccfb656ff4199e2354087d8435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text_tmp: {fileID: 1885864257}
 --- !u!114 &952393888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6711,7 +6777,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.48235294}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -6767,14 +6833,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -999030095242075582, guid: 8ac805ae49a90b047a7a143b72ca0af3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8ac805ae49a90b047a7a143b72ca0af3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9307,8 +9373,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -46.0065, y: -149.01}
-  m_SizeDelta: {x: 117.353, y: 187.5}
+  m_AnchoredPosition: {x: -63.534428, y: -115.11903}
+  m_SizeDelta: {x: 385.898, y: 249.5725}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1376600595
 MonoBehaviour:
@@ -9322,6 +9388,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5211b5ccfb656ff4199e2354087d8435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text_tmp: {fileID: 1885864257}
 --- !u!114 &1376600596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9366,6 +9433,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1376600595}
+        m_TargetAssemblyTypeName: ButtonHitbox, Assembly-CSharp
+        m_MethodName: ViewText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "W\u0142ochy"
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1812205433}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -9403,14 +9482,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6126057703731787074, guid: d4b89a0b71fadda4596d1f69d8846497, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 584a04b7534845f5a91987250084a406, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10270,8 +10349,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -383.51984, y: 192.12395}
-  m_SizeDelta: {x: 297.8032, y: 197.9253}
+  m_AnchoredPosition: {x: -353.45923, y: 189.50058}
+  m_SizeDelta: {x: 334.5962, y: 217.0328}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1448466410
 MonoBehaviour:
@@ -10285,6 +10364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5211b5ccfb656ff4199e2354087d8435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text_tmp: {fileID: 1885864257}
 --- !u!114 &1448466411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10329,6 +10409,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1448466410}
+        m_TargetAssemblyTypeName: ButtonHitbox, Assembly-CSharp
+        m_MethodName: ViewText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Wielka Brytania
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1812205433}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -10366,14 +10458,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6126057703731787074, guid: d4b89a0b71fadda4596d1f69d8846497, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6e2c9cd140c0600838a100d0ec33879a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11454,8 +11546,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 185.81987, y: 108.89256}
-  m_SizeDelta: {x: 346.3007, y: 192.6823}
+  m_AnchoredPosition: {x: 198.053, y: 106.467606}
+  m_SizeDelta: {x: 379.8886, y: 247.4491}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1536719129
 MonoBehaviour:
@@ -11469,6 +11561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5211b5ccfb656ff4199e2354087d8435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text_tmp: {fileID: 1885864257}
 --- !u!114 &1536719130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11513,6 +11606,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1536719129}
+        m_TargetAssemblyTypeName: ButtonHitbox, Assembly-CSharp
+        m_MethodName: ViewText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Nie wiem
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1812205433}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -11550,14 +11655,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6126057703731787074, guid: d4b89a0b71fadda4596d1f69d8846497, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a1663fd279779ace6886706fa16e5d9d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12349,8 +12454,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110.451965, y: -7.218898}
-  m_SizeDelta: {x: 266.3452, y: 96.0854}
+  m_AnchoredPosition: {x: 98.51142, y: -11.8389}
+  m_SizeDelta: {x: 650.7659, y: 212.0806}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1673372349
 MonoBehaviour:
@@ -12364,6 +12469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5211b5ccfb656ff4199e2354087d8435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text_tmp: {fileID: 1885864257}
 --- !u!114 &1673372350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12408,6 +12514,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1673372349}
+        m_TargetAssemblyTypeName: ButtonHitbox, Assembly-CSharp
+        m_MethodName: ViewText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "Austro-W\u0119gry"
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1812205433}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -12445,14 +12563,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6126057703731787074, guid: d4b89a0b71fadda4596d1f69d8846497, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 18832649cbf66e2f2b6218311b5e0d8a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15899,7 +16017,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2053913076}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -15908,8 +16026,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -63.5711, y: 64.6919}
-  m_SizeDelta: {x: 170.661, y: 166.4674}
+  m_AnchoredPosition: {x: -46.60181, y: 70.958275}
+  m_SizeDelta: {x: 648.8849, y: 212.9286}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2053913078
 MonoBehaviour:
@@ -15923,6 +16041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5211b5ccfb656ff4199e2354087d8435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text_tmp: {fileID: 1885864257}
 --- !u!114 &2053913079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15967,6 +16086,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 2053913078}
+        m_TargetAssemblyTypeName: ButtonHitbox, Assembly-CSharp
+        m_MethodName: ViewText
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Niemcy
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1812205433}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -16004,14 +16135,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6126057703731787074, guid: d4b89a0b71fadda4596d1f69d8846497, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5fa05faf38f532a46808af7443d247f2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
