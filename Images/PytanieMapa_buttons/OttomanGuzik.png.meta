@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d4b89a0b71fadda4596d1f69d8846497
+guid: 00ca05e13d6fed5e3bb58b37c0710814
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6126057703731787074
-    second: IberiaGuzik_0
+      213: 3610704789594223074
+    second: OttomanGuzik_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IberiaGuzik_0
+      name: OttomanGuzik_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eba8587c9fedbfaa0800000000000000
-      internalID: -6126057703731787074
+      spriteID: 2e1b09430eccb1230800000000000000
+      internalID: 3610704789594223074
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IberiaGuzik_0: -6126057703731787074
+      OttomanGuzik_0: 3610704789594223074
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

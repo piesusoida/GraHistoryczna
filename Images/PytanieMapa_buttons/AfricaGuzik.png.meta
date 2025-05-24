@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d4b89a0b71fadda4596d1f69d8846497
+guid: f07da48f7c72e055abfee5af683ec15d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6126057703731787074
-    second: IberiaGuzik_0
+      213: 4284964452964842781
+    second: AfricaGuzik_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IberiaGuzik_0
+      name: AfricaGuzik_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eba8587c9fedbfaa0800000000000000
-      internalID: -6126057703731787074
+      spriteID: d1d352e9770477b30800000000000000
+      internalID: 4284964452964842781
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      IberiaGuzik_0: -6126057703731787074
+      AfricaGuzik_0: 4284964452964842781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
