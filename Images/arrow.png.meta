@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: da7d6fbefe3a3d04c9a1dc6c63a12de3
+guid: 9fdd2957b14fd11408b8a3f7a4653408
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2291125621621759867
-    second: bastylia_0
+      213: -765150924802650856
+    second: arrow_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bastylia_0
+      name: arrow_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 808
+        x: 9
+        y: 36
+        width: 429
+        height: 307
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5806073d2694430e0800000000000000
-      internalID: -2291125621621759867
+      spriteID: 81d839fa943a165f0800000000000000
+      internalID: -765150924802650856
       vertices: []
       indices: 
       edges: []
@@ -147,12 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< HEAD
-    nameFileIdTable: {}
-=======
     nameFileIdTable:
-      bastylia_0: -2291125621621759867
->>>>>>> main
+      arrow_0: -765150924802650856
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

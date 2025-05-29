@@ -12,4 +12,12 @@ public class ButtonsHandler : MonoBehaviour
     {
         SceneManager.LoadScene(3);
     }
+<<<<<<< HEAD
+=======
+
+    public void LoadChronicle1()
+    {
+        SceneManager.LoadScene(6);
+    }
+>>>>>>> main
 }
