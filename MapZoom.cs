@@ -14,12 +14,19 @@ public class MapZoom : MonoBehaviour
 
     void Start()
     {
+        this.enabled = false;
+
         if (mapRectTransform != null)
         {
             startScale = mapRectTransform.localScale;
             startAnchoredPosition = mapRectTransform.anchoredPosition;
-            minScale = startScale.x; 
+            minScale = startScale.x;
         }
+    }
+
+    public void EnableZoom()
+    {
+        this.enabled = true;
     }
 
     void Update()
