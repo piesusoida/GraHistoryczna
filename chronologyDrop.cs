@@ -1,47 +1,39 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-
-public class DropDrop : MonoBehaviour, IDropHandler
+public class ChronologyDrop : MonoBehaviour, IDropHandler
 {
-
+    [Header("Drag-Drop Settings")]
+    [Tooltip("ID of the correct draggable object for this drop zone")]
     public string correctItemID;
 
-    private void Awake()
-    {
-        if(gameObject.name == "DropPlace1")
-        {
-            correctItemID = "DragObj3";
-        }
-        else if (gameObject.name == "DropPlace2")
-        {
-            correctItemID = "DragObj2";
-        }
-        else
-        {
-            correctItemID = "DragObj1";
-        }
-    }
     public void OnDrop(PointerEventData eventData)
     {
-        Debug.Log("zrzut");
+        Debug.Log($"Drop attempted on {gameObject.name}");
 
         if (transform.childCount > 0)
         {
             Debug.Log("Slot already occupied!");
             return;
         }
+
         if (eventData.pointerDrag != null)
         {
             RectTransform draggedRect = eventData.pointerDrag.GetComponent<RectTransform>();
 
-            // Optional: Set the parent of the dragged object to the drop target
-            draggedRect.SetParent(transform);
+            if (draggedRect == null)
+            {
+                Debug.LogWarning("Dropped object does not have a RectTransform.");
+                return;
+            }
 
-            // Reset position within new parent
+            // Set parent to this drop area
+            draggedRect.SetParent(transform, worldPositionStays: true);
+
             draggedRect.anchoredPosition = Vector2.zero;
         }
     }
+
     public bool IsCorrectItemPlaced()
     {
         if (transform.childCount == 0)
@@ -49,12 +41,15 @@ public class DropDrop : MonoBehaviour, IDropHandler
             Debug.Log($"{gameObject.name} is empty.");
             return false;
         }
+
         DragDrop item = transform.GetChild(0).GetComponent<DragDrop>();
-        Debug.Log(item);
-        if (item == null) return false;
-        Debug.Log(item.itemID);
+        if (item == null)
+        {
+            Debug.LogWarning("Child does not have DragDrop component.");
+            return false;
+        }
+
+        Debug.Log($"{gameObject.name} received item with ID: {item.itemID}");
         return item.itemID == correctItemID;
     }
-
-
 }

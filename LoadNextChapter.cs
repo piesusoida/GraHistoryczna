@@ -8,4 +8,8 @@ public class LoadNextChapter : MonoBehaviour
     {
         SceneManager.LoadScene(7);
     }
+    public void LoadChapter3()
+    {
+        SceneManager.LoadScene(8);
+    }
 }
